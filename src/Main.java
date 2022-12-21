@@ -9,6 +9,9 @@ public class Main {
         System.out.println(foundation);
         foundation.setPublicationYear(1951);
         System.out.println(foundation);
-
+        Author tolstoyLev = new Author("Лев", "Толстой");
+        System.out.println(levTolstoy.equals(tolstoyLev));
+        Book peaceAndWar = new Book("Война и мир", tolstoyLev, 1869);
+        System.out.println(warAndPeace.equals(peaceAndWar));
     }
 }
